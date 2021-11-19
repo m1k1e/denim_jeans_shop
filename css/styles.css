@@ -524,3 +524,111 @@ body {
     border-bottom: 2px solid #151C22;
     padding-bottom: 3px;
   }
+
+
+  /*Goods card page*/
+  .card {
+    background-image: linear-gradient(to right, #ffffff 50%, #f1f2f4 50%);
+  }
+  
+  .card-wrapper {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .card-photos-column {
+    width: 600px;
+    background-color: #ffffff;
+  }
+  
+  .card-description-column {
+    width: 370px;
+    padding: 40px 0 0 70px;
+    color: #151c22;
+  }
+  
+  .card-photos-slider-preview {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: -20px;
+  }
+  
+  .card-photos-slider-preview-item {
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  
+  .card-description-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  
+  .card-description-price {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  
+  .card-order-field {
+    margin: 0 0 25px 0;
+    padding: 0;
+    border: none;
+  }
+  
+  .card-order-field legend {
+    margin-bottom: 10px;
+  }
+  
+  .radio_box {
+    position: absolute;
+    margin-top: 0.3em;
+    margin-left: 0.3em;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .lightblue {
+    background-color: #B0C3C7;
+    box-shadow: 0 0 0 0.1em #B0C3C7;
+  }
+  
+  .blue {
+    background-color: #3B6392;
+    box-shadow: 0 0 1px 0.1em #3B6392;
+    margin-left: 60px;
+  }
+  
+  .gray {
+    background-color: #BFC3C8;
+    box-shadow: 0 0 0 0.1em #BFC3C8;
+    margin-left: 115px;
+  }
+  
+  input:checked + .radio_box {
+    box-shadow:
+               0 0 0 0.1em #fff,
+               0 0 0 0.2em #B0C3C7;
+  }
+  
+  .radio_size {
+    color: #727A82;
+    font-weight: 500;
+    margin-right: 20px;
+  }
+  
+  input:checked + .radio_size {
+    color: #151C22;
+    font-weight: 600;
+  }
+  
+  .similar {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  
